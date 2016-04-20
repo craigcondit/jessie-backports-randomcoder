@@ -58,3 +58,15 @@ repos:
       vcs_url: https://github.com/tatsuhiro-t/spdylay
       licenses: [ MIT ]
 
+    - name: python-sphinxcontrib.rubydomain
+      desc: Ruby domain for HTTP APIs - Python 2.x 
+      website_url: http://pythonhosted.org/sphinxcontrib-rubydomain/
+      vcs_url: https://github.com/thewtex/sphinx-contrib/tree/master/rubydomain
+      licenses: [ BSD ]
+
+    - name: python3-sphinxcontrib.rubydomain
+      desc: Ruby domain for HTTP APIs - Python 3.x 
+      website_url: http://pythonhosted.org/sphinxcontrib-rubydomain/
+      vcs_url: https://github.com/thewtex/sphinx-contrib/tree/master/rubydomain
+      licenses: [ BSD ]
+
