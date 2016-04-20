@@ -1,0 +1,36 @@
+# this file contains all the packages which need to be installed into bintray
+
+repos: 
+
+  jessie-backports-randomcoder:
+
+    - name: openssl
+      desc: Secure Sockets Layer toolkit - cryptographic utility
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
+    - name: libssl1.0.2
+      desc: Secure Sockets Layer toolkit - shared libraries
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
+    - name: libssl1.0.2-dbg
+      desc: Secure Sockets Layer toolkit - debug information
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
+    - name: libssl-dev
+      desc: Secure Sockets Layer toolkit - development files
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
+    - name: libssl-doc
+      desc: Secure Sockets Layer toolkit - development documentation
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
