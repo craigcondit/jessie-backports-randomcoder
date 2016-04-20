@@ -20,14 +20,19 @@ RUN \
 RUN \
 	cd /build && \
 	apt-get update && \
-	apt-get -y install python-sphinxcontrib.rubydomain && \
+	apt-get -y install python-sphinxcontrib.rubydomain ruby bison && \
 	apt-get -y build-dep nghttp2 && \
 	apt-get -y source nghttp2 && \
 	rm -rf /var/cache/apt && \
 	cd nghttp2-* && \
-	DEBEMAIL=ccondit@randomcoder.org DEBFULLNAME="Craig Condit" \
+	sed -i 's/disable-failmalloc$/disable-failmalloc --with-mruby/' debian/rules && \
+	export DEBEMAIL=ccondit@randomcoder.org && \
+	export DEBFULLNAME="Craig Condit" && \
 	dch -b -l "~local" --distribution jessie-backports-randomcoder --force-distribution --noquery \
 	'Rebuild for Debian Jessie.' && \
+	dch -b -i --no-auto-nmu --distribution jessie-backports-randomcoder --force-distribution --noquery \
+	'Enable mruby.' && \
 	dpkg-buildpackage && \
 	cd /build && \
 	cp -f *~local* /packages/
+
