@@ -21,10 +21,6 @@ RUN \
 	DEBEMAIL=ccondit@randomcoder.org DEBFULLNAME="Craig Condit" \
 	dch -b -l "~local" --distribution jessie-backports-randomcoder --force-distribution --noquery \
 	'Rebuild for Debian Jessie.' && \
-	dpkg-buildpackage
-
-RUN \
+	dpkg-buildpackage && \
 	cd /build && \
-	cp -f *~local* /packages/ && \
-	cd /packages && \
-	rm -rf /build
+	cp -f *~local* /packages/
