@@ -34,3 +34,27 @@ repos:
       vcs_url: https://github.com/openssl/openssl
       licenses: [ BSD ]
 
+    - name: libspdylay7
+      desc: implementation of SPDY protocol in C
+      website_url: https://tatsuhiro-t.github.io/spdylay/
+      vcs_url: https://github.com/tatsuhiro-t/spdylay
+      licenses: [ MIT ]
+
+    - name: libspdylay-dbg
+      desc: implementation of SPDY protocol in C - debug symbols
+      website_url: https://tatsuhiro-t.github.io/spdylay/
+      vcs_url: https://github.com/tatsuhiro-t/spdylay
+      licenses: [ MIT ]
+
+    - name: libspdylay-dev
+      desc: implementation of SPDY protocol in C - development files
+      website_url: https://tatsuhiro-t.github.io/spdylay/
+      vcs_url: https://github.com/tatsuhiro-t/spdylay
+      licenses: [ MIT ]
+
+    - name: libspdylay-utils
+      desc: implementation of SPDY protocol in C - utilities
+      website_url: https://tatsuhiro-t.github.io/spdylay/
+      vcs_url: https://github.com/tatsuhiro-t/spdylay
+      licenses: [ MIT ]
+
