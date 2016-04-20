@@ -70,3 +70,45 @@ repos:
       vcs_url: https://github.com/thewtex/sphinx-contrib/tree/master/rubydomain
       licenses: [ BSD ]
 
+    - name: libnghttp2-14
+      desc: library implementing HTTP/2 protocol (shared library)
+      website_url: https://nghttp2.org/
+      vcs_url: https://github.com/nghttp2/nghttp2
+      licenses: [ MIT ]
+
+    - name: libnghttp2-dev
+      desc: library implementing HTTP/2 protocol (development files)
+      website_url: https://nghttp2.org/
+      vcs_url: https://github.com/nghttp2/nghttp2
+      licenses: [ MIT ]
+
+    - name: libnghttp2-doc
+      desc: library implementing HTTP/2 protocol (documentation)
+      website_url: https://nghttp2.org/
+      vcs_url: https://github.com/nghttp2/nghttp2
+      licenses: [ MIT ]
+
+    - name: nghttp2
+      desc: server, proxy and client implementing HTTP/2
+      website_url: https://nghttp2.org/
+      vcs_url: https://github.com/nghttp2/nghttp2
+      licenses: [ MIT ]
+
+    - name: nghttp2-client
+      desc: client implementing HTTP/2 protocol
+      website_url: https://nghttp2.org/
+      vcs_url: https://github.com/nghttp2/nghttp2
+      licenses: [ MIT ]
+
+    - name: nghttp2-proxy
+      desc: reverse proxy implementing HTTP/2 protocol
+      website_url: https://nghttp2.org/
+      vcs_url: https://github.com/nghttp2/nghttp2
+      licenses: [ MIT ]
+
+    - name: nghttp2-server
+      desc: server implementing HTTP/2 protocol
+      website_url: https://nghttp2.org/
+      vcs_url: https://github.com/nghttp2/nghttp2
+      licenses: [ MIT ]
+
