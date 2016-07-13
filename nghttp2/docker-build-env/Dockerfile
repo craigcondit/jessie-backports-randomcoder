@@ -6,7 +6,7 @@ ADD assets /assets
 RUN \
 	echo "deb http://ftp.us.debian.org/debian jessie main non-free contrib" > /etc/apt/sources.list && \
 	echo "deb http://security.debian.org/ jessie/updates main contrib non-free" >> /etc/apt/sources.list && \
-	echo "deb-src http://ftp.us.debian.org/debian stretch main contrib non-free" >> /etc/apt/sources.list && \
+	echo "deb-src http://ftp.us.debian.org/debian sid main contrib non-free" >> /etc/apt/sources.list && \
 	apt-key add /assets/bintray-public.key.asc && \
 	apt-get update && \
 	apt-get -y dist-upgrade && \
