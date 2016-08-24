@@ -112,3 +112,110 @@ repos:
       vcs_url: https://github.com/nghttp2/nghttp2
       licenses: [ MIT ]
 
+    - name: nginx
+      desc: small, powerful, scalable web/proxy server
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: nginx-common
+      desc: small, powerful, scalable web/proxy server - common files
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: nginx-doc
+      desc: small, powerful, scalable web/proxy server - documentation
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: nginx-extras
+      desc: nginx web/proxy server (extended version)
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: nginx-extras-dbg
+      desc: nginx web/proxy server (extended version) - debugging symbols
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: nginx-full
+      desc: nginx web/proxy server (standard version)
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: nginx-full-dbg
+      desc: nginx web/proxy server (standard version) - debugging symbols
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: nginx-light
+      desc: nginx web/proxy server (light version)
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: nginx-light-dbg
+      desc: nginx web/proxy server (light version) - debugging symbols
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-auth-pam
+      desc: PAM authentication module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-geoip
+      desc: GeoIP HTTP module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-image-filter
+      desc: HTTP image filter module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-lua
+      desc: LUA module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-ndk
+      desc: Nginx Development Kit module
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-perl
+      desc: Perl module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-xslt-filter
+      desc: XSLT Transformation module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-mail
+      desc: Mail module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-stream
+      desc: Stream module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
