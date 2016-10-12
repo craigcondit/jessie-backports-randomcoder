@@ -219,3 +219,52 @@ repos:
       website_url: http://nginx.org/
       vcs_url: http://hg.nginx.org/nginx
       licenses: [ BSD ]
+
+    - name: libnginx-mod-nchan
+      desc: Fast, flexible pub/sub server for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-upstream-fair
+      desc: Nginx Upstream Fair Proxy Load Balancer
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-echo
+      desc: Bring echo and more shell style goodies to Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-fancyindex
+      desc: Fancy indexes module for the Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-headers-more-filter
+      desc: Set and clear input and output headers for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-subs-filter
+      desc: Substitution filter module for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-uploadprogress
+      desc: Upload progress system for Nginx
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
+    - name: libnginx-mod-http-cache-purge
+      desc: Purge content from Nginx caches
+      website_url: http://nginx.org/
+      vcs_url: http://hg.nginx.org/nginx
+      licenses: [ BSD ]
+
