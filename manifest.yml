@@ -274,3 +274,9 @@ repos:
       vcs_url: https://anonscm.debian.org/git/collab-maint/ca-certificates.git
       licenses: [ "GPL-2.0", "GPL-3.0", "MPL-2.0" ]
 
+    - name: ca-certificates-java
+      desc: Common CA certificates (JKS keystore)
+      website_url: https://packages.debian.org/source/stretch/ca-certificates-java
+      vcs_url: https://anonscm.debian.org/viewvc/pkg-java/trunk/ca-certificates-java/
+      licenses: [ "GPL-2.0" ]
+
