@@ -268,3 +268,9 @@ repos:
       vcs_url: http://hg.nginx.org/nginx
       licenses: [ BSD ]
 
+    - name: ca-certificates
+      desc: Common CA certificates
+      website_url: https://packages.debian.org/source/stretch/ca-certificates
+      vcs_url: https://anonscm.debian.org/git/collab-maint/ca-certificates.git
+      licenses: [ "GPL-2.0", "GPL-3.0", "MPL-2.0" ]
+
