@@ -280,3 +280,357 @@ repos:
       vcs_url: https://anonscm.debian.org/viewvc/pkg-java/trunk/ca-certificates-java/
       licenses: [ "GPL-2.0" ]
 
+    - name: python-cffi
+      desc: Foreign Function Interface for Python calling C code
+      website_url: https://pypi.python.org/pypi/cffi
+      vcs_url: https://bitbucket.org/cffi/cffi 
+      licenses: [ MIT ]
+
+    - name: python-cffi-backend
+      desc: Foreign Function Interface for Python calling C code - backend
+      website_url: https://pypi.python.org/pypi/cffi
+      vcs_url: https://bitbucket.org/cffi/cffi 
+      licenses: [ MIT ]
+
+    - name: python-cffi-backend-dbg
+      desc: Foreign Function Interface for Python calling C code - (Debug version)
+      website_url: https://pypi.python.org/pypi/cffi
+      vcs_url: https://bitbucket.org/cffi/cffi 
+      licenses: [ MIT ]
+
+    - name: python3-cffi
+      desc: Foreign Function Interface for Python 3 calling C code
+      website_url: https://pypi.python.org/pypi/cffi
+      vcs_url: https://bitbucket.org/cffi/cffi 
+      licenses: [ MIT ]
+
+    - name: python3-cffi-backend
+      desc: Foreign Function Interface for Python 3 calling C code - backend
+      website_url: https://pypi.python.org/pypi/cffi
+      vcs_url: https://bitbucket.org/cffi/cffi 
+      licenses: [ MIT ]
+
+    - name: python3-cffi-backend-dbg
+      desc: Foreign Function Interface for Python 3 calling C code - (Debug version)
+      website_url: https://pypi.python.org/pypi/cffi
+      vcs_url: https://bitbucket.org/cffi/cffi 
+      licenses: [ MIT ]
+
+    - name: python-cryptography-vectors
+      desc: Test vectors for python-cryptography (Python 2)
+      website_url: https://cryptography.io/
+      vcs_url: https://github.com/pyca/cryptography
+      licenses: [ BSD, "Apache-2.0" ]
+
+    - name: python3-cryptography-vectors
+      desc: Test vectors for python-cryptography (Python 3)
+      website_url: https://cryptography.io/
+      vcs_url: https://github.com/pyca/cryptography
+      licenses: [ BSD, "Apache-2.0" ]
+
+    - name: pypy-pyasn1
+      desc: ASN.1 library for Python (PyPy module)
+      website_url: https://sourceforge.net/projects/pyasn1/
+      vcs_url: http://pyasn1.cvs.sourceforge.net/viewvc/pyasn1/
+      licenses: [ BSD ]
+
+    - name: python3-pyasn1
+      desc: ASN.1 library for Python (Python 3 module)
+      website_url: https://sourceforge.net/projects/pyasn1/
+      vcs_url: http://pyasn1.cvs.sourceforge.net/viewvc/pyasn1/
+      licenses: [ BSD ]
+
+    - name: python-pyasn1
+      desc: ASN.1 library for Python (Python 2 module)
+      website_url: https://sourceforge.net/projects/pyasn1/
+      vcs_url: http://pyasn1.cvs.sourceforge.net/viewvc/pyasn1/
+      licenses: [ BSD ]
+
+    - name: pypy-pkg-resources
+      desc: Package Discovery and Resource Access using pkg_resources
+      website_url: https://pypi.python.org/pypi/setuptools
+      vcs_url: https://github.com/pypa/setuptools
+      licenses: [ MIT ]
+
+    - name: pypy-setuptools
+      desc: PyPy Distutils Enhancements
+      website_url: https://pypi.python.org/pypi/setuptools
+      vcs_url: https://github.com/pypa/setuptools
+      licenses: [ MIT ]
+
+    - name: python-pkg-resources
+      desc: Package Discovery and Resource Access using pkg_resources
+      website_url: https://pypi.python.org/pypi/setuptools
+      vcs_url: https://github.com/pypa/setuptools
+      licenses: [ MIT ]
+
+    - name: python-setuptools
+      desc: Python Distutils Enhancements
+      website_url: https://pypi.python.org/pypi/setuptools
+      vcs_url: https://github.com/pypa/setuptools
+      licenses: [ MIT ]
+
+    - name: python-setuptools-doc
+      desc: Python Distutils Enhancements (documentation)
+      website_url: https://pypi.python.org/pypi/setuptools
+      vcs_url: https://github.com/pypa/setuptools
+      licenses: [ MIT ]
+
+    - name: python3-pkg-resources
+      desc: Package Discovery and Resource Access using pkg_resources
+      website_url: https://pypi.python.org/pypi/setuptools
+      vcs_url: https://github.com/pypa/setuptools
+      licenses: [ MIT ]
+
+    - name: python3-setuptools
+      desc: Python3 Distutils Enhancements
+      website_url: https://pypi.python.org/pypi/setuptools
+      vcs_url: https://github.com/pypa/setuptools
+      licenses: [ MIT ]
+
+    - name: pypy-hypothesis
+      desc: advanced Quickcheck style testing library for PyPy
+      website_url: http://hypothesis.works/
+      vcs_url: https://github.com/HypothesisWorks/hypothesis-python
+      licenses: [ "MPL-2.0" ]
+
+    - name: python-hypothesis
+      desc: advanced Quickcheck style testing library for Python 2
+      website_url: http://hypothesis.works/
+      vcs_url: https://github.com/HypothesisWorks/hypothesis-python
+      licenses: [ "MPL-2.0" ]
+
+    - name: python-hypothesis-doc
+      desc: advanced Quickcheck style testing library (documentation)
+      website_url: http://hypothesis.works/
+      vcs_url: https://github.com/HypothesisWorks/hypothesis-python
+      licenses: [ "MPL-2.0" ]
+
+    - name: python3-hypothesis
+      desc: advanced Quickcheck style testing library for Python 3
+      website_url: http://hypothesis.works/
+      vcs_url: https://github.com/HypothesisWorks/hypothesis-python
+      licenses: [ "MPL-2.0" ]
+
+    - name: pypy-py
+      desc: Advanced Python development support library (PyPy)
+      website_url: https://py.readthedocs.io/en/latest/
+      vcs_url: https://bitbucket.org/pytest-dev/py
+      licenses: [ MIT ]
+
+    - name: python-py
+      desc: Advanced Python development support library (Python 2)
+      website_url: https://py.readthedocs.io/en/latest/
+      vcs_url: https://bitbucket.org/pytest-dev/py
+      licenses: [ MIT ]
+
+    - name: python3-py
+      desc: Advanced Python development support library (Python 3)
+      website_url: https://py.readthedocs.io/en/latest/
+      vcs_url: https://bitbucket.org/pytest-dev/py
+      licenses: [ MIT ]
+
+    - name: pypy-enum34
+      desc: backport of Python 3.4's enum package (PyPy package)
+      website_url: https://bitbucket.org/stoneleaf/enum34
+      vcs_url: https://bitbucket.org/stoneleaf/enum34
+      licenses: [ BSD ]
+
+    - name: python-enum34
+      desc: backport of Python 3.4's enum package
+      website_url: https://bitbucket.org/stoneleaf/enum34
+      vcs_url: https://bitbucket.org/stoneleaf/enum34
+      licenses: [ BSD ]
+
+    - name: python-enum34-doc
+      desc: backport of Python 3.4's enum package (documentation)
+      website_url: https://bitbucket.org/stoneleaf/enum34
+      vcs_url: https://bitbucket.org/stoneleaf/enum34
+      licenses: [ BSD ]
+
+    - name: python-cryptography
+      desc: Python library exposing cryptographic recipes and primitives (Python 2)
+      website_url: https://cryptography.io/
+      vcs_url: https://github.com/pyca/cryptography
+      licenses: [ BSD, "Apache-2.0" ]
+
+    - name: python-cryptography-doc
+      desc: Python library exposing cryptographic recipes and primitives (documentation)
+      website_url: https://cryptography.io/
+      vcs_url: https://github.com/pyca/cryptography
+      licenses: [ BSD, "Apache-2.0" ]
+
+    - name: python3-cryptography
+      desc: Python library exposing cryptographic recipes and primitives (Python 3)
+      website_url: https://cryptography.io/
+      vcs_url: https://github.com/pyca/cryptography
+      licenses: [ BSD, "Apache-2.0" ]
+
+    - name: python-openssl
+      desc: Python 2 wrapper around the OpenSSL library
+      website_url: https://pyopenssl.readthedocs.io/en/stable/
+      vcs_url: https://github.com/pyca/pyopenssl
+      licenses: [ "Apache-2.0" ]
+
+    - name: python-openssl-doc
+      desc: Python wrapper around the OpenSSL library (documentation package)
+      website_url: https://pyopenssl.readthedocs.io/en/stable/
+      vcs_url: https://github.com/pyca/pyopenssl
+      licenses: [ "Apache-2.0" ]
+
+    - name: python3-openssl
+      desc: Python 3 wrapper around the OpenSSL library
+      website_url: https://pyopenssl.readthedocs.io/en/stable/
+      vcs_url: https://github.com/pyca/pyopenssl
+      licenses: [ "Apache-2.0" ]
+
+    - name: pypy-ipaddress
+      desc: Backport of Python 3 ipaddress module (PyPy)
+      website_url: https://docs.python.org/dev/library/ipaddress.html
+      vcs_url: https://github.com/phihag/ipaddress
+      licenses: [ "PythonSoftFoundation" ]
+
+    - name: python-ipaddress
+      desc: Backport of Python 3 ipaddress module (Python 2)
+      website_url: https://docs.python.org/dev/library/ipaddress.html
+      vcs_url: https://github.com/phihag/ipaddress
+      licenses: [ "PythonSoftFoundation" ]
+
+    - name: pypy-idna
+      desc: Python IDNA2008 (RFC 5891) handling (PyPy)
+      website_url: https://github.com/kjd/idna
+      vcs_url: https://github.com/kjd/idna
+      licenses: [ BSD ]
+
+    - name: python-idna
+      desc: Python IDNA2008 (RFC 5891) handling (Python 2)
+      website_url: https://github.com/kjd/idna
+      vcs_url: https://github.com/kjd/idna
+      licenses: [ BSD ]
+
+    - name: python3-idna
+      desc: Python IDNA2008 (RFC 5891) handling (Python 3)
+      website_url: https://github.com/kjd/idna
+      vcs_url: https://github.com/kjd/idna
+      licenses: [ BSD ]
+
+    - name: python-dnspython
+      desc: DNS toolkit for Python
+      website_url: http://www.dnspython.org/
+      vcs_url: https://github.com/rthalley/dnspython
+      licenses: [ BSD ]
+
+    - name: python3-dnspython
+      desc: DNS toolkit for Python 3
+      website_url: http://www.dnspython.org/
+      vcs_url: https://github.com/rthalley/dnspython
+      licenses: [ BSD ]
+
+    - name: python-acme
+      desc: ACME protocol library for Python 2
+      vcs_url: https://github.com/certbot/certbot
+      website_url: https://certbot.eff.org/
+      licenses: [ "Apache-2.0" ]
+
+    - name: python-acme-doc
+      desc: ACME protocol library for Python 2 - Documentation
+      vcs_url: https://github.com/certbot/certbot
+      website_url: https://certbot.eff.org/
+      licenses: [ "Apache-2.0" ]
+
+    - name: python3-acme
+      desc: ACME protocol library for Python 3
+      vcs_url: https://github.com/certbot/certbot
+      website_url: https://certbot.eff.org/
+      licenses: [ "Apache-2.0" ]
+
+    - name: python-rfc3339
+      desc: parser and generator of RFC 3339-compliant timestamps (Python 2)
+      website_url: http://pypi.python.org/pypi/rfc3339/
+      vcs_url: http://pypi.python.org/pypi/rfc3339/
+      licenses: [ ISC ]
+
+    - name: python3-rfc3339
+      desc: parser and generator of RFC 3339-compliant timestamps (Python 3)
+      website_url: http://pypi.python.org/pypi/rfc3339/
+      vcs_url: http://pypi.python.org/pypi/rfc3339/
+      licenses: [ ISC ]
+
+    - name: python-psutil
+      desc: module providing convenience functions for managing processes
+      vcs_url: https://github.com/giampaolo/psutil
+      website_url: https://github.com/giampaolo/psutil
+      licenses: [ BSD ]
+
+    - name: python-psutil-dbg
+      desc: module providing convenience functions for managing processes (debug)
+      vcs_url: https://github.com/giampaolo/psutil
+      website_url: https://github.com/giampaolo/psutil
+      licenses: [ BSD ]
+
+    - name: python-psutil-doc
+      desc: module providing convenience functions for managing processes (doc)
+      vcs_url: https://github.com/giampaolo/psutil
+      website_url: https://github.com/giampaolo/psutil
+      licenses: [ BSD ]
+
+    - name: python3-psutil
+      desc: module providing convenience functions for managing processes (Python3)
+      vcs_url: https://github.com/giampaolo/psutil
+      website_url: https://github.com/giampaolo/psutil
+      licenses: [ BSD ]
+
+    - name: python3-psutil-dbg
+      desc: module providing convenience functions for managing processes (Python3 debug)
+      vcs_url: https://github.com/giampaolo/psutil
+      website_url: https://github.com/giampaolo/psutil
+      licenses: [ BSD ]
+
+    - name: python-dialog
+      desc: Python 2 module for making simple terminal-based user interfaces
+      website_url: https://pypi.python.org/pypipy/dialog
+      vcs_url: https://pypi.python.org/pypipy/dialog
+      licenses: [ "GPL-2.0" ]
+
+    - name: certbot
+      desc: automatically configure HTTPS using Let's Encrypt
+      vcs_url: https://github.com/certbot/certbot
+      website_url: https://certbot.eff.org/
+      licenses: [ "Apache-2.0" ]
+
+    - name: letsencrypt
+      desc: transitional dummy package
+      vcs_url: https://github.com/certbot/certbot
+      website_url: https://certbot.eff.org/
+      licenses: [ "Apache-2.0" ]
+
+    - name: python-certbot
+      desc: main library for certbot
+      vcs_url: https://github.com/certbot/certbot
+      website_url: https://certbot.eff.org/
+      licenses: [ "Apache-2.0" ]
+
+    - name: python-certbot-doc
+      desc: client documentation for certbot
+      vcs_url: https://github.com/certbot/certbot
+      website_url: https://certbot.eff.org/
+      licenses: [ "Apache-2.0" ]
+
+    - name: python-configparser
+      desc: backport of the enhanced config parser introduced in Python 3.2
+      website_url: https://docs.python.org/3/library/configparser.html
+      vcs_url: https://docs.python.org/3/library/configparser.html
+      licenses: [ MIT ]
+
+    - name: python-configargparse
+      desc: replacement for argparse with config files and environment variables (Python 2)
+      vcs_url: https://github.com/bw2/ConfigArgParse
+      website_url: https://github.com/bw2/ConfigArgParse
+      licenses: [ MIT ]
+
+    - name: python3-configargparse
+      desc: replacement for argparse with config files and environment variables (Python 3)
+      vcs_url: https://github.com/bw2/ConfigArgParse
+      website_url: https://github.com/bw2/ConfigArgParse
+      licenses: [ MIT ]
+
