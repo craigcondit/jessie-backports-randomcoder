@@ -23,6 +23,8 @@ RUN \
 	apt-get -y -t jessie-backports install dh-python && \
 	apt-get -y install python-all-dev python3-all-dev python-all-dbg python3-all-dbg
 
+ADD patches /patches
+
 RUN \
 	apt-get update && \
 	apt-get -y install python-stdeb && \
@@ -37,9 +39,18 @@ RUN \
 	cd certbot-external-auth-* && \
 	export DEBEMAIL=ccondit@randomcoder.org && \
 	export DEBFULLNAME="Craig Condit" && \
-	dch -b -l "~local" --distribution jessie-backports-randomcoder --force-distribution --noquery \
-	'Build for Debian Jessie.' && \
-	dpkg-buildpackage && \
+	dch -b \
+		-l "~local" \
+		--distribution jessie-backports-randomcoder \
+		--force-distribution --noquery \
+		'Build for Debian Jessie.' && \
+	patch -p1 < /patches/allow-noninteractive.patch && \
+	dch -b \
+		--distribution jessie-backports-randomcoder \
+		--force-distribution --noquery \
+		--increment \
+		'Allow non-interactive usage.' && \
+	debian/rules binary && \
 	cd .. && \
 	cp -f *~local*.deb /packages/
 
