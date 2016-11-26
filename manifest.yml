@@ -634,3 +634,9 @@ repos:
       website_url: https://github.com/bw2/ConfigArgParse
       licenses: [ MIT ]
 
+    - name: python-certbot-external-auth
+      desc: External authenticator for Certbot
+      website_url: https://github.com/EnigmaBridge/certbot-external-auth
+      vcs_url: https://github.com/EnigmaBridge/certbot-external-auth
+      licenses: [ "Apache-2.0" ]
+
