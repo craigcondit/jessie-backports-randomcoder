@@ -640,3 +640,15 @@ repos:
       vcs_url: https://github.com/EnigmaBridge/certbot-external-auth
       licenses: [ "Apache-2.0" ]
 
+    - name: tar-scripts
+      desc: optional scripts for GNU version of the tar archiving utility
+      website_url: https://www.gnu.org/software/tar/
+      vcs_url: http://git.savannah.gnu.org/cgit/tar.git
+      licenses: [ "GPL-3.0" ]
+
+    - name: tar
+      desc: GNU version of the tar archiving utility
+      website_url: https://www.gnu.org/software/tar/
+      vcs_url: http://git.savannah.gnu.org/cgit/tar.git
+      licenses: [ "GPL-3.0" ]
+
