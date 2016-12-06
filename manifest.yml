@@ -10,6 +10,18 @@ repos:
       vcs_url: https://github.com/openssl/openssl
       licenses: [ BSD ]
 
+    - name: libcrypto1.1-udeb
+      desc: Secure Sockets Layer toolkit - libcrypto udeb
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
+    - name: libssl1.1
+      desc: Secure Sockets Layer toolkit - shared libraries
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
     - name: libssl1.0.2
       desc: Secure Sockets Layer toolkit - shared libraries
       website_url: https://www.openssl.org/
@@ -18,6 +30,18 @@ repos:
 
     - name: libssl1.0.2-dbg
       desc: Secure Sockets Layer toolkit - debug information
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
+    - name: libssl1.1-dbg
+      desc: Secure Sockets Layer toolkit - debug information
+      website_url: https://www.openssl.org/
+      vcs_url: https://github.com/openssl/openssl
+      licenses: [ BSD ]
+
+    - name: libssl1.1-udeb
+      desc: ssl shared library - udeb
       website_url: https://www.openssl.org/
       vcs_url: https://github.com/openssl/openssl
       licenses: [ BSD ]
