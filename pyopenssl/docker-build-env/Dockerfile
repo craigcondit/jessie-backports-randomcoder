@@ -33,8 +33,8 @@ RUN \
 	cd pyopenssl-* && \
 	export DEBEMAIL=ccondit@randomcoder.org && \
 	export DEBFULLNAME="Craig Condit" && \
-	dch -b -l "~local" --distribution jessie-backports-randomcoder --force-distribution --noquery \
-	'Rebuild for Debian Jessie.' && \
+	dch -b -l "~local" --distribution jessie-backports-randomcoder --force-distribution --noquery 'Rebuild for Debian Jessie.' && \
+	dch -b -l "~local" --distribution jessie-backports-randomcoder --force-distribution --noquery 'Rebuild against libssl1.1.' && \
 	dpkg-buildpackage && \
 	cd /build && \
 	cp -f *~local*.deb /packages/
