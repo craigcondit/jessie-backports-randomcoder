@@ -652,3 +652,33 @@ repos:
       vcs_url: http://git.savannah.gnu.org/cgit/tar.git
       licenses: [ "GPL-3.0" ]
 
+    - name: dpkg
+      desc: Debian package management system
+      website_url: https://anonscm.debian.org/cgit/dpkg/dpkg.git
+      vcs_url: https://anonscm.debian.org/git/dpkg/dpkg.git
+      licenses: [ "GPL-2.0" ]
+
+    - name: dpkg-dev
+      desc: Debian package development tools
+      website_url: https://anonscm.debian.org/cgit/dpkg/dpkg.git
+      vcs_url: https://anonscm.debian.org/git/dpkg/dpkg.git
+      licenses: [ "GPL-2.0" ]
+
+    - name: dselect
+      desc: Debian package management front-end
+      website_url: https://anonscm.debian.org/cgit/dpkg/dpkg.git
+      vcs_url: https://anonscm.debian.org/git/dpkg/dpkg.git
+      licenses: [ "GPL-2.0" ]
+
+    - name: libdpkg-dev
+      desc: Debian package management static library
+      website_url: https://anonscm.debian.org/cgit/dpkg/dpkg.git
+      vcs_url: https://anonscm.debian.org/git/dpkg/dpkg.git
+      licenses: [ "GPL-2.0" ]
+
+    - name: libdpkg-perl
+      desc: Dpkg perl modules
+      website_url: https://anonscm.debian.org/cgit/dpkg/dpkg.git
+      vcs_url: https://anonscm.debian.org/git/dpkg/dpkg.git
+      licenses: [ "GPL-2.0" ]
+
