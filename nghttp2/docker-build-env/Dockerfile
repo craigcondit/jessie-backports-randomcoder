@@ -30,9 +30,9 @@ RUN \
 	export DEBFULLNAME="Craig Condit" && \
 	dch -b -l "~local" --distribution jessie-backports-randomcoder --force-distribution --noquery \
 	'Rebuild for Debian Jessie.' && \
-	dch -b -i --no-auto-nmu --distribution jessie-backports-randomcoder --force-distribution --noquery \
-	'Enable mruby.' && \
+	dch -b -i --no-auto-nmu --distribution jessie-backports-randomcoder --force-distribution --noquery 'Enable mruby.' && \
+	dch -b -i --no-auto-nmu --distribution jessie-backports-randomcoder --force-distribution --noquery 'Rebuild against libssl1.1.' && \
 	dpkg-buildpackage && \
 	cd /build && \
-	cp -f *~local* /packages/
+	cp -f *~local*.deb /packages/
 
