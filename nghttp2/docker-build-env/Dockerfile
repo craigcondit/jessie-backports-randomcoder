@@ -7,6 +7,7 @@ RUN \
 	echo "deb http://ftp.us.debian.org/debian jessie main non-free contrib" > /etc/apt/sources.list && \
 	echo "deb http://security.debian.org/ jessie/updates main contrib non-free" >> /etc/apt/sources.list && \
 	echo "deb-src http://ftp.us.debian.org/debian sid main contrib non-free" >> /etc/apt/sources.list && \
+	echo "deb http://ftp.us.debian.org/debian jessie-backports main" >> /etc/apt/sources.list && \
 	apt-key add /assets/bintray-public.key.asc && \
 	apt-get update && \
 	apt-get -y dist-upgrade && \
@@ -14,6 +15,7 @@ RUN \
 	echo "deb https://dl.bintray.com/insideo/jessie-backports-randomcoder randomcoder main" >> /etc/apt/sources.list && \
 	apt-get update && \
 	apt-get -y install dpkg-dev build-essential devscripts lintian patch patchutils && \
+	apt-get -y -t jessie-backports install debhelper && \
 	rm -rf /var/cache/apt && \
 	mkdir -p /build /packages
 
